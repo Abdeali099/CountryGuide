@@ -5,3 +5,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+background-color: #3d64e6;
+min-height: 100vh;
+display: grid;
+place-items: center;
+}
+
+.container{
+    background-color: white;
+    width: 80vw;
+    max-width: 37.5em; /*SEE*/
+    border-radius: 8px;
+    box-shadow: 5px 5px 7px black;
+    padding: 2rem 2.5rem;
+}
+
+.serachWrapper{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25rem;
+}
+
+.serachWrapper input{
+        font-size: 1.2rem;
+        padding: 0 0.5rem;
+        border: none;
+        border-bottom: 2px solid #3d64e6;
+        outline: none;
+        color: #222a43;
+
+
+
+}
+
+.serachWrapper button{
+    font-size: 1.2rem;
+    background-color: #3d64e6;
+    color: white;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    box-shadow: 3.5px 3.5px 8px 2px black;
+    /* letter-spacing: 0.1rem; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.myFont{
+font-size: 1.2rem;
+}
